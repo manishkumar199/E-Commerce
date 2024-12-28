@@ -2,8 +2,11 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
+const apiKey = import.meta.env.VITE_API_KEY;
+console.log(apiKey);
+
 const firebaseConfig = {
-    apiKey: "AIzaSyBBifHSXZ0WYkHwFcy5RL_aRu-HdReFtI0",
+    apiKey: apiKey,
     authDomain: "e-com-shop-dd551.firebaseapp.com",
     projectId: "e-com-shop-dd551",
     storageBucket: "e-com-shop-dd551.firebasestorage.app",

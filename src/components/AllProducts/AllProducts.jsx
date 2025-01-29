@@ -92,8 +92,8 @@ const AllProducts = ({ addToCart }) => {
     return (
         <>
 
-            <div className="container mx-auto grid grid-cols-[20%_auto] mt-20">
-                <div className='bg-[#e2e0e0] max-h-fit pb-10 container mx-auto rounded-md py-3 px-2 mt-12'>
+            <div className="container mx-auto grid md:grid-cols-[20%_auto] mt-20">
+                <div className='bg-[#e2e0e0]  max-h-fit pb-10 container mx-auto rounded-md py-3 px-2 mt-12'>
                     {/* <div className='text-center mt-4'>
                         <select className='p-3 text-sm text-gray-900 border border-gray-300 bg-gray-50 focus:ring-blue-500 outline-none' onChange={(e) => filterProducts(e.target.value)}>
                             <option>Filter by Category</option>

@@ -40,7 +40,7 @@ const Navbar = ({ cart, userName }) => {
                         <ul className='flex gap-5 justify-center font-medium text-base '>
                             <Link to={'/'}><li className='hover:text-[#5138ee] cursor-pointer'>Home</li></Link>
                             <Link to={'/all-products'}><li className='hover:text-[#5138ee] cursor-pointer'>All Products</li></Link>
-                            <Link to={'/mens'}><li className='hover:text-[#5138ee] cursor-pointer'>About</li></Link>
+                            {/* <Link to={'/mens'}><li className='hover:text-[#5138ee] cursor-pointer'>About</li></Link> */}
                             <Link to={'/contact-us'}><li className='hover:text-[#5138ee] cursor-pointer'>Contact</li></Link>
                         </ul>
                     </div>
@@ -52,9 +52,9 @@ const Navbar = ({ cart, userName }) => {
                             <Link to={'/all-products'} onClick={toggleMenu}>
                                 <li className='mt-5 hover:text-gray-900 cursor-pointer'>All Products</li>
                             </Link>
-                            <Link to={'/about'} onClick={toggleMenu}>
+                            {/* <Link to={'/about'} onClick={toggleMenu}>
                                 <li className='mt-5 hover:text-gray-900 cursor-pointer'>About</li>
-                            </Link>
+                            </Link> */}
                             <Link to={'/contact-us'} onClick={toggleMenu}>
                                 <li className='mt-5 hover:text-gray-900 cursor-pointer'>Contact</li>
                             </Link>
